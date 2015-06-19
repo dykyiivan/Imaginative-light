@@ -3,11 +3,17 @@
 	margin: 0;
 }
 
+
+html { 
+	overflow:  hidden; 
+}
+
 /*header*/
 
 .header {
 	background: #ebebeb;
 	width: 100%;
+	padding: 0 15px;
 }
 
 .header-wrapper {
@@ -113,3 +119,140 @@ ul li a:hover {
 	background: #6a3144;
 }
 
+/*content*/
+
+.content {
+	color: #999;
+	font-family: Georgia,sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.heading h1 {
+	color: #333;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Georgia,sans-serif;
+	text-align: center;
+	margin: 40px 0;
+	overflow: hidden;
+}
+
+.heading h1:before,.heading h1:after {
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: 5px;
+	vertical-align: middle;
+	background: #ebebeb;
+	background-clip: content-box;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.heading h1:before {    
+	left: -10px;
+	margin: 0 0 0 -50%;
+}
+.heading h1:after {    
+	left: 10px;
+	margin: 0 -50% 0 0;
+}
+
+.content {
+	padding: 0 15px;
+}
+.content img {
+	float: left;
+	margin-right: 15px;
+}
+
+.read-more {
+	text-decoration: none;
+	color: #97455f;
+	font-size: 13px;
+	display: block;
+	margin-top: 25px;
+}
+
+.read-more:hover {
+	text-decoration: underline;
+}
+
+.read-more-img {
+	float: none!important;
+	padding-left: 4px;
+
+}
+
+/*second content*/
+
+.contact-us {
+	margin-top: 50px;
+	overflow: hidden;
+	background: #97455f;
+	border-radius: 5px;
+	padding-bottom: 20px;
+}
+
+.contact-us-content {
+	float: left;
+	padding-left: 30px;
+	color: #e5e5e5;
+	line-height: 1;
+	font-size: 18px;
+}
+
+#contact-us-title  {
+	color: #e5e5e5;
+	font-size: 36px;
+	font-family: Georgia, sans-serif;
+	padding: 25px 0 5px 0;
+}
+
+button {
+	float: right;
+	background: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 18px 10px;
+	color: #97455f;
+	font-size: 26px;
+	margin: 25px 30px 0 0;
+	cursor: pointer;
+}
+button:focus {
+	box-shadow: 2px 2px 20px #ccc;
+	outline: none;
+}
+
+/*footer*/
+
+.footer {
+	background: #ebebeb;
+	position: fixed;
+	left: 0; 
+	bottom: 0; 
+	width: 100%;
+}
+
+.footer-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 25px 15px;
+	color: #999;
+	font-size: 12px;
+	font-family: Georgia, sans-serif;
+}
+
+.copyringht-left {
+	float: left;
+}
+
+.copyringht-right {
+	float: right;
+
+}

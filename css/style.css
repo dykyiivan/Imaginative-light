@@ -15,15 +15,16 @@ img {
 
 header {
 	background: #ebebeb;
-	width: 100%;
 	padding: 0 15px;
 }
+
+
 
 .wrapper {
 	max-width: 960px;
 	margin: 0 auto;
-	overflow: hidden;
 }
+
 
 h1 {
 	float: left;
@@ -109,8 +110,6 @@ input[type="search"]::-moz-placeholder { /* Для зміни зовнішньо
 	border-radius: 5px 5px 0 0;
 	background: #97455f;
 	overflow: hidden;
-	max-width: 960px;
-	margin: 0 auto;
 	
 }
 
@@ -200,15 +199,6 @@ ul li a:hover {
 
 }
 
-/*.artilce-img {
-	background: #333;
-	border-radius: 50%;
-	height: 128px;
-	width: 128px;
-	display: block;
-	float: left;
-}
-*/
 .read-more {
 	text-decoration: none;
 	color: #97455f;

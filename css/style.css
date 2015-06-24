@@ -109,9 +109,15 @@ input[type="search"]::-moz-placeholder { /* Для зміни зовнішньо
 	clear: both;
 	border-radius: 5px 5px 0 0;
 	background: #97455f;
-	overflow: hidden;
+	
 	
 }
+ .nav:after {
+	clear: both;
+	content: " ";
+	display: block;
+
+ }
 
 .nav li {
 	float: left;

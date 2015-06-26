@@ -173,6 +173,16 @@ input[type="search"]::-moz-placeholder { /* Для зміни зовнішньо
 	margin: 0 auto;
 }
 
+.img {
+	background: #333;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	height: 128px;
+	margin-right: 15px;
+	width: 128px;
+}
+
 .heading {
 	color: #333;
 	font-size: 16px;

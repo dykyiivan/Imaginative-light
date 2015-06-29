@@ -148,11 +148,13 @@
 	padding-top: 60px;
 }
 
-.main-wrapper::after {
+.header-wrapper::after {
 	clear: both;
 	content: "";
 	display: table;
 }
+
+
 
 .logo {
 	color: #333;
@@ -177,7 +179,7 @@
 
 #search {
 	float: right;
-	margin-bottom: 30px;
+	
 }
 
 .text {

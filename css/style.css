@@ -211,7 +211,7 @@
 
 /* NAVIGATION */
 
-.menu {
+menu {
 	background: #97455f;
 	border-radius: 5px 5px 0 0;
 	margin: 50px auto 0;
@@ -219,18 +219,18 @@
 
 }
 
-.menu::after {
+menu::after {
 	clear: both;
 	content: "";
 	display: table;
 }
 
-.menu li {
+menu ul li {
 	float: left;
 	list-style: none;
 }
 
-.menu li a {
+menu ul li a {
 	color: #fff;
 	display: block;
 	font-size: 12px;
@@ -238,13 +238,76 @@
 	text-decoration: none;
 }
 
-.menu li a:hover {
+menu ul li a:hover {
 	background: #6a3144;
 }
 
-.menu li:first-child a:hover {
+menu ul li:first-child a:hover {
 	border-radius: 5px 0 0 0;
 }
 
 /* SLIDER */
 
+.slider {
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 960px;
+	position: relative;
+	padding-top: 30px;
+	right: 0;
+	top:-70px;
+	z-index: 1;
+}
+
+.slider-wrapper {
+	margin: 0 auto;
+	max-width: 900px;
+	position: relative;
+}
+
+.carousel-indicators {
+	bottom: -40px;
+	position: absolute;
+	right: 400px;
+	z-index: 112;
+}
+
+.carousel-indicators li {
+	background-color: #333;
+	border-radius: 10px;
+	cursor: pointer;
+	display: inline-block;
+	height: 15px;
+	margin: 1px;
+	text-indent: -999px;
+	width: 15px;
+}
+
+.carousel-indicators .active {
+	background-color: #fff;
+	border: 3px solid #333;
+	height: 10px;
+	width: 10px;
+}
+
+.carousel-caption{
+	background-color: #adadad;
+	bottom: 25px;
+	color: #383838;
+	font-size: 16px;
+	padding-left: 30px;
+	position: absolute;
+	right: 10px;
+	width: 44%;
+}
+
+.carousel-caption h2 {
+	color: #383838;
+	font-family: Georgia, sans-serif;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.slider-item {
+	display: none;
+}

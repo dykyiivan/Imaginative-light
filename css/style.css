@@ -185,6 +185,7 @@ body {
 .text {
 	border-radius: 5px 0 0 5px;
 	border: none;
+	font-family: Georgia,sans-serif;
 	float: left;
 	outline: none;
 	padding: 7px 0 6px 10px;
@@ -201,6 +202,7 @@ body {
 	border: none;
 	color: #fff;
 	cursor: pointer;
+	font-family: Georgia,sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	outline: none;

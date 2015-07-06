@@ -14,11 +14,16 @@ body {
 	border-bottom: 2px solid #97455f;
 }
 
+
+
 .topbar-wrapper {
 	margin: 0 auto;
 	max-width: 960px;
 	position: relative;
 }
+
+
+
 
 .topbar-wrapper::after {
 	clear: both;
@@ -29,6 +34,12 @@ body {
 .social {
 	float: left;
 	margin: 10px 0;
+}
+
+@media (max-width: 460px){
+	.social {
+		margin-left: 11%;
+	}
 }
 
 .social li {
@@ -46,8 +57,23 @@ body {
 	width: 32px;
 }
 
+@media (max-width: 460px){
+	.linkedin {
+		height: 50px;
+		width: 50px;
+	}
+}
+
+
 .linkedin:hover {
 	background-color: #0e76a8;
+}
+
+@media (max-width: 460px){
+	.linkedin:hover {
+		height: 50px;
+		width: 50px;
+	}
 }
 
 .twitter {
@@ -59,8 +85,22 @@ body {
 	width: 32px;
 }
 
+@media (max-width: 460px){
+	.twitter {
+		height: 50px;
+		width: 50px;
+	}
+}
+
 .twitter:hover {
 	background-color: #00acee;
+}
+
+@media (max-width: 460px){
+	.twitter:hover {
+		height: 50px;
+		width: 50px;
+	}
 }
 
 .pinterest {
@@ -72,8 +112,22 @@ body {
 	width: 32px;
 }
 
+@media (max-width: 460px){
+	.pinterest {
+		height: 50px;
+		width: 50px;
+	}
+}
+
 .pinterest:hover {
 	background-color: #c8232c;
+}
+
+@media (max-width: 460px){
+	.pinterest:hover {
+		height: 50px;
+		width: 50px;
+	}
 }
 
 .google {
@@ -85,8 +139,22 @@ body {
 	width: 32px;
 }
 
+@media (max-width: 460px){
+	.google {
+		height: 50px;
+		width: 50px;
+	}
+}
+
 .google:hover {
 	background-color: #db4a39;
+}
+
+@media (max-width: 460px){
+	.google:hover {
+		height: 50px;
+		width: 50px;
+	}
 }
 
 .rss {
@@ -98,13 +166,34 @@ body {
 	width: 32px;
 }
 
+@media (max-width: 460px){
+	.rss {
+		height: 50px;
+		width: 50px;
+	}
+}
+
 .rss:hover {
 	background-color: #ee802f;
+}
+
+@media (max-width: 460px){
+	.rss:hover {
+		height: 50px;
+		width: 50px;
+	}
 }
 
 .register {
 	float: right;
 	margin-top: 20px;
+}
+
+@media (max-width: 460px){
+	.register {
+		float: left;
+		margin: 1% 0 3% 1%;
+	}
 }
 
 .register li {
@@ -119,6 +208,13 @@ body {
 	display: block;
 	border-right: 1px solid #97455f;
 	padding: 0 5px;
+}
+
+@media (max-width: 460px){
+	.register li a {
+		font-size: 19px;
+		
+	}
 }
 
 .register li a:hover {
@@ -140,6 +236,15 @@ body {
 	width: 30px;
 }
 
+@media (max-width: 460px){
+	.button {
+		border-radius: 0 0 10px 10px;
+		height: 50px;
+		right: 10px;
+		top: 114px;
+		width: 50px;
+	}
+}
 
 .button:hover {
 	background-image: url(../images/plus.png);
@@ -177,6 +282,12 @@ body {
 	text-decoration: none;
 }
 
+
+@media (max-width: 460px){
+	.logo{
+		margin-left: 20%;
+	}
+}
 .slogan {
 	border-left: 1px solid #999;
 	color: #999;
@@ -186,9 +297,17 @@ body {
 	padding-left: 5px;
 }
 
+
 #search {
 	float: right;
 }
+
+@media (max-width: 460px){
+	#search {
+		margin-right: 10%;
+	}
+}
+
 
 .text {
 	border-radius: 5px 0 0 5px;
@@ -254,6 +373,8 @@ body {
 	float: left;
 	list-style: none;
 }
+
+
 
 .nav li a {
 	color: #fff;

@@ -161,7 +161,6 @@ img {
 @media (max-width: 460px){
 	.register li a {
 		font-size: 19px;
-		
 	}
 }
 
@@ -230,7 +229,6 @@ img {
 	text-decoration: none;
 }
 
-
 @media (max-width: 460px){
 	.logo{
 		margin-left: 20%;
@@ -245,7 +243,6 @@ img {
 	padding-left: 5px;
 }
 
-
 #search {
 	float: right;
 }
@@ -255,7 +252,6 @@ img {
 		margin-right: 10%;
 	}
 }
-
 
 .text {
 	border-radius: 5px 0 0 5px;
@@ -322,13 +318,11 @@ img {
 	list-style: none;
 }
 
-
 @media(max-width: 460px){
 	.nav li {
 		float: none;
 	}
 }
-
 
 .nav li a {
 	color: #fff;
@@ -341,7 +335,6 @@ img {
 @media (max-width: 460px) {
 	.nav li a {
 		font-size: 18px;
-  
 	}
 }
 
@@ -589,8 +582,8 @@ h3.border {
 
 @media (max-width: 460px) {
 	.services p {
-		margin-left: 0;
 		font-size: 23px;
+		margin-left: 0;
 	}
 }
 
@@ -606,8 +599,8 @@ h3.border {
 @media (max-width: 460px) {
 	.services-img {
 		float: none;
-		margin-left: 25%;
 		height: 100px;
+		margin-left: 25%;
 		width: 50%;
 	}
 }
@@ -844,7 +837,6 @@ blockquote {
 	}
 }
 
-
 /* BLOCK CONTACT US */
 
 .contact-us {
@@ -989,6 +981,14 @@ address {
 	font-size: 12px;
 }
 
+@media (max-width: 460px) {
+	address{
+		font-size: 18px;
+		padding: 0 17%;
+		
+	}
+}
+
 address a {
 	color: #97455f;
 	text-decoration: none;
@@ -1008,9 +1008,25 @@ address a:hover {
 	font-weight: bold;
 }
 
+@media (max-width: 460px) {
+	.footer-center h5{
+		font-size: 18px;
+		text-align: center;
+		
+	}
+}
+
 .footer-center p {
 	color: #999;
 	font-size: 12px;
+}
+
+@media (max-width: 460px) {
+	.footer-center p{
+		font-size: 18px;
+		text-align: center;
+		
+	}
 }
 
 .footer-right {
@@ -1018,6 +1034,14 @@ address a:hover {
 	max-width: 225px;
 }
  
+@media (max-width: 460px) {
+	.footer-right{
+		float: none;
+		max-width: 100%;
+		padding: 0 22%;
+	}
+}
+
 .form-contact-text {
 	background: #fff;
 	border-radius: 5px;
@@ -1030,6 +1054,12 @@ address a:hover {
 	outline: none;
 	padding: 8px 10px;
 	width: 225px;
+}
+
+@media (max-width: 460px) {
+	.form-contact-text {
+		font-size: 18px;
+	}
 }
 
 input[type=text]:focus {
@@ -1051,6 +1081,12 @@ textarea {
 	width: 206px;
 }
 
+ @media (max-width: 460px) {
+	textarea {
+		font-size: 18px;
+	}
+}
+
 .form-contact-submit{
 	background: #97455f;
 	border-radius: 5px;
@@ -1064,10 +1100,16 @@ textarea {
 	text-transform: uppercase;
 }
 
+@media (max-width: 460px) {
+	.form-contact-submit {
+		font-size: 18px;
+		margin: 0 30%;
+	}
+}
+
 .copyright {
 	border-top: 1px solid #bcbcbc;
 }
-
 
 .copyright-wrapper {
 	color: #999;
@@ -1088,6 +1130,24 @@ textarea {
 	float: left;
 }
 
+@media (max-width: 460px) {
+	.left {
+		float: none;
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+
 .right {
 	float: right;
+}
+
+@media (max-width: 460px) {
+	.right {
+		float: none;
+		font-size: 18px;
+		text-align: center;
+	
+	}
 }

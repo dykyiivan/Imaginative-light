@@ -309,12 +309,14 @@ address a:hover  {
 	opacity: 0;
 	position: absolute;
 	right: 0;
+	visibility: hidden;
 	z-index: -1;
 }
 
 .nav li:hover .dropdown{
 	opacity: 1;
 	transition: all 0.2s ease 0.3s;
+	visibility: visible;
 	z-index: 1;
 }
 
